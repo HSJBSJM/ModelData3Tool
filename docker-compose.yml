@@ -1,0 +1,22 @@
+services:
+  backend:
+    image: babylon-backend:latest
+    ports:
+      - "3358:3001"
+    volumes:
+      - ./storage:/app/storage
+    environment:
+      - NODE_ENV=production
+      - FRONTEND_URL=http://localhost:3695
+    restart: always
+
+  frontend:
+    image: babylon-frontend:latest
+    ports:
+      - "3695:80"
+    depends_on:
+      - backend
+    restart: always
+
+volumes:
+  storage:
