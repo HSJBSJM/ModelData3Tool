@@ -280,7 +280,6 @@ docker-compose down
 
 - [Babylon.js](https://www.babylonjs.com/) - 强大的 3D 引擎
 - [Vue.js](https://vuejs.org/) - 渐进式前端框架
-- [Three.js](https://threejs.org/) - 3D 图形库参考
 - [Blender](https://www.blender.org/) - 开源 3D 创作套件
 
 
