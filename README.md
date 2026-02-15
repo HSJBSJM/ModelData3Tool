@@ -282,12 +282,6 @@ docker-compose down
 1. **Community Edition**: 遵循 AGPL-3.0 协议 + 非商用附加条款。仅供个人学习和非营利性研究使用。必须保留所有版权标识和水印。
 2. **Commercial Edition**: 针对企业和商业运营提供专项授权。请联系作者获取商业授权书。
 
-## 👥 团队
-
-- **项目负责人**: [Your Name]
-- **UI/UX 设计**: [Designer Name]
-- **核心开发**: [Developer Names]
-
 ## 🙏 致谢
 
 感谢以下项目和社区的支持：
